@@ -252,6 +252,17 @@ powersaving on
 powersaving off
 ```
 
+## Protip: Set your own Prefix
+
+MeshCore uses the beginning of your public key as your node identifier. If you want a recognizable prefix or need to avoid a collision with a nearby node, use the [MeshCore Key Generator](https://gessaman.com/mc-keygen/) to generate a matching public and private key. The generator runs entirely in your browser, so your keys never leave your device.
+
+To apply the generated key to a repeater, connect through USB serial or log in to the repeater from a companion node and run:
+
+```bash
+set prv.key <your_private_key>
+reboot
+```
+
 ---
 
 *This guide is adapted from the [Colorado Mesh Repeater Setup Guide](https://meshcore.coloradomesh.org/guides/repeater-setup). Thank you to the Colorado Mesh community for the thorough documentation.*
