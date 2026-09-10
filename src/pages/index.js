@@ -166,7 +166,7 @@ function HostANode() {
       <div className="container">
         <div className={styles.hostGrid}>
           <div className={styles.hostWhy}>
-            <Heading as="h2" className={styles.sectionTitle}>
+            <Heading as="h2" id="host-a-node" className={styles.sectionTitle}>
               Why Host a Node on Your Property?
             </Heading>
             <p className={styles.hostSubtitle}>Small Device. Big Impact.</p>
