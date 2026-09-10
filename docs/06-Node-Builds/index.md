@@ -1,5 +1,5 @@
 ---
-sidebar_label: Node Builds
+sidebar_label: Build Information
 ---
 # Node Builds
 Community build guides for mesh network nodes — solar builds, enclosures, and DIY setups. Whether you're putting together a budget solar node or designing a custom weatherproof enclosure, you'll find practical guides and parts lists here.
